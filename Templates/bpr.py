@@ -90,3 +90,17 @@ def create_scatter_plot(data, x, y, chart_title="[CHART TITLE]", labels_dict={},
     fig.show()
     
     return fig
+
+def create_line_plot(data, x, y, chart_title="[CHART TITLE]", labels_dict={}, c=["indianred"]):
+    fig = px.line(
+        data,
+        x = x,
+        y = y,
+        title = chart_title,
+        labels = labels_dict,
+        color_discrete_sequence = c
+    )
+    
+    fig.show()
+    
+    return fig
