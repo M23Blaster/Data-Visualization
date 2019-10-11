@@ -25,7 +25,7 @@ dem_rep = ["#487EBF",  "#BF424A"]
 safe_leans_tossup = ["#444CA0", "#81B6E8", "#F2DDA9", "#DD758A", "#A04555"]
 safe_tossup = ["#444CA0", "#F2DDA9", "#A04555"]
 safe_likely_leans_tossup = ["#444CA0", "#487EBF", "#81B6E8", "#F2DDA9", "#DD758A", "#BF424A", "#A04555"]
-
+safe_likely_leans = ["#444CA0", "#487EBF", "#81B6E8", "#DD758A", "#BF424A", "#A04555"]
 
 
 #===Chart-Generating Functions===
